@@ -1,1 +1,1 @@
-# 프로그래머스 코딩테스트 오토 커밋
+# Programmers Auto Commit
