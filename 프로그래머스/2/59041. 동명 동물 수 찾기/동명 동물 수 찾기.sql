@@ -1,5 +1,6 @@
-SELECT NAME, COUNT(NAME)
+SELECT NAME, COUNT(NAME) 
+-- count(*) 과 다르게 null 제거된 상태라 WHERE절로 IS NOT NULL 안해도 됨
 FROM ANIMAL_INS
 GROUP BY NAME
-HAVING COUNT(NAME) >= 2 -- count(*) 과 다르게 null 제거된 상태라 조건절로 IS NOT NULL 안해도 됨
+HAVING COUNT(NAME) >= 2 
 ORDER BY NAME ASC;
