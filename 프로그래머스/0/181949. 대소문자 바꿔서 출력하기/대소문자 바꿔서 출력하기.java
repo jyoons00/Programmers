@@ -20,14 +20,15 @@ public class Solution {
                  // 만약 소문자라면?
                 if(Character.isLowerCase(c)) {
                     
-                    // 대문자라면?    
+                    // 대문자로 변환  
                     result.append(Character.toUpperCase(c));
                     
                 } // if
                 
+                // 만약 대문자라면?
                 else if(Character.isUpperCase(c)) {
 
-                    // 소문자라면?
+                    // 소문자로 변환  
                     result.append(Character.toLowerCase(c));
                     
                 } // else if
