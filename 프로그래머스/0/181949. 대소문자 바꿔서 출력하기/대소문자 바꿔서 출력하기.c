@@ -20,7 +20,7 @@ int main(void) {
      }  
 
      // 변환된 문자열 출력
-     printf("%s\n", s1);
+     printf("%s", s1);
         
     return 0;
 }
