@@ -6,7 +6,7 @@ int main(void) {
     scanf("%s", s1);
 
     // 배열 순회 (배열의 각 원소에 직접 접근하기 위해 포인터 사용)
-    for(char *p = s1; *p != '\0'; *p++) {
+    for(char *p = s1; *p != '\0'; p++) {
         
         if(islower(*p)) {
         
