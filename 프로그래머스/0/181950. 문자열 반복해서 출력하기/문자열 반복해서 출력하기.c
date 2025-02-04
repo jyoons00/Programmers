@@ -8,7 +8,7 @@ int main(void) {
     
     if(n >= 1 && n <= 5) {
         for(int i=1; i<=n; i++){
-            printf(str);
+            printf("%s", str);
         } 
     }
 
