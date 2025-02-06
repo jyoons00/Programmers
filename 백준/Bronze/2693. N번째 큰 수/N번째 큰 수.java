@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int test = sc.nextInt();
-        
+        int n = 3;
 
         for (int i = 0; i < test; i++) {
             int[] arr = new int[10];
@@ -17,7 +17,7 @@ public class Main {
 
             Arrays.sort(arr);
 
-            System.out.println(arr[7]);
+            System.out.println(arr[10-n]);
         }
 
         sc.close();
